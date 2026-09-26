@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Build Step
-        run: echo "demo build"
+        run: echo "Hello,${{MY_NAME}}"
