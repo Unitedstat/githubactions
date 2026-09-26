@@ -8,19 +8,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: build step
+      - name: Build Step
         run: echo "demo build"
 
- test:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: test step
+      - name: Test Step
         run: echo "demo test"
 
- depoly:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: depoly test
-        run: echo "depoly"
+      - name: Deploy Step
+        run: echo "deploy"
